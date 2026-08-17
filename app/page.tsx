@@ -14,7 +14,7 @@ export default function Home() {
   return <main>
     <header className="site-header">
       <a className="wordmark" href="#top" aria-label="Library Nebari home"><img src="/maker-mark.png" alt="" /><span><b>Library</b><i>Nebari</i></span></a>
-      <nav aria-label="Primary navigation"><a href="#books">Books</a><a href="#about">About</a><a className="return-link" href="https://nebari.com.au">Nebari ↗</a></nav>
+      <nav aria-label="Primary navigation"><a href="#books">Books</a><a href="/unread">To Be Read</a><a href="#about">About</a><a className="return-link" href="https://nebari.com.au">Nebari ↗</a></nav>
     </header>
     <section className="hero" id="top">
       <div className="hero-copy"><p className="eyebrow">A small, growing collection</p><h1>Books worth keeping<br/>in circulation.</h1><p className="intro">Free classics to read and keep, accompanied by short notes from one reader to another.</p><a className="browse" href="#books">Browse the shelves <span>↓</span></a></div>
